@@ -45,7 +45,7 @@ with col1:
     )
 
     year = st.selectbox("Año", [0, 1],
-                        format_func=lambda x: 2011 if x == 0 else 2012)
+                    format_func=lambda x: "2011" if x == 0 else "2012")
 
     month = st.selectbox("Mes", list(range(1, 13)))
 
